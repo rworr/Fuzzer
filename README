@@ -1,0 +1,1 @@
+Generic fuzzer written in Python, designed to accept a generic language specification and produce randomized, valid files.

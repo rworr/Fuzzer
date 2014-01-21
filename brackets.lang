@@ -1,0 +1,3 @@
+# Demo to generate strings of equal numbers of left and right brackets
+Program => S
+S => [(]-{S|[]}-[)]

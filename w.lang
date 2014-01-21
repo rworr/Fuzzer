@@ -1,0 +1,10 @@
+@ wave
+# Language specification for w
+
+Program => ((\s)*-Waveform)+-(\s)*
+Waveform => Id-(\s)*-[:]-(\s)*-Bits-(\s)*-[;]
+Id => Char-({Char|Digit|[_]})*
+Char => {[A-Z]|[a-z]}
+Digit => [0-9]
+Bits => {[0]|[1]}-({[0]|[1]|(\s)*})*
+

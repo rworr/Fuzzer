@@ -1,0 +1,7 @@
+@text
+# Demo for using the language specification to construct a sentence
+Program => (Sentence-[ ])+
+Sentence => Noun-[ ]-Adverb-[ ]-Verb-[.]
+Noun => {[Jimmy]|[Cats]}
+Adverb => {[can]|[will]}
+Verb => {[jump]|[run]}
